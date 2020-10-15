@@ -18,7 +18,7 @@ describe('index', () => {
       console.error.restore()
       done()
     })
-    console.log("HALP!")
+    console.error("HALP!")
   })
 
   it('calls console.log()', done => {
