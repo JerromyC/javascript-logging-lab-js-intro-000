@@ -42,6 +42,8 @@ describe('index', () => {
       console.warn.restore()
       done()
     })
+
+     console.error('HALP!');
   })
 })
- console.error('HALP!');
+
